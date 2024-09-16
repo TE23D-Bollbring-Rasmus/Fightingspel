@@ -1,0 +1,14 @@
+C:\Users\rasmus.mattssonboll\Documents\Programmering 1\Fightingspel\Fightingspel\obj\Debug\net8.0\Fightingspel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rasmus.mattssonboll\Documents\Programmering 1\Fightingspel\Fightingspel\obj\Debug\net8.0\Fightingspel.AssemblyInfoInputs.cache
+C:\Users\rasmus.mattssonboll\Documents\Programmering 1\Fightingspel\Fightingspel\obj\Debug\net8.0\Fightingspel.AssemblyInfo.cs
+C:\Users\rasmus.mattssonboll\Documents\Programmering 1\Fightingspel\Fightingspel\obj\Debug\net8.0\Fightingspel.csproj.CoreCompileInputs.cache
+C:\Users\rasmus.mattssonboll\Documents\Programmering 1\Fightingspel\Fightingspel\bin\Debug\net8.0\Fightingspel.exe
+C:\Users\rasmus.mattssonboll\Documents\Programmering 1\Fightingspel\Fightingspel\bin\Debug\net8.0\Fightingspel.deps.json
+C:\Users\rasmus.mattssonboll\Documents\Programmering 1\Fightingspel\Fightingspel\bin\Debug\net8.0\Fightingspel.runtimeconfig.json
+C:\Users\rasmus.mattssonboll\Documents\Programmering 1\Fightingspel\Fightingspel\bin\Debug\net8.0\Fightingspel.dll
+C:\Users\rasmus.mattssonboll\Documents\Programmering 1\Fightingspel\Fightingspel\bin\Debug\net8.0\Fightingspel.pdb
+C:\Users\rasmus.mattssonboll\Documents\Programmering 1\Fightingspel\Fightingspel\obj\Debug\net8.0\Fightingspel.dll
+C:\Users\rasmus.mattssonboll\Documents\Programmering 1\Fightingspel\Fightingspel\obj\Debug\net8.0\refint\Fightingspel.dll
+C:\Users\rasmus.mattssonboll\Documents\Programmering 1\Fightingspel\Fightingspel\obj\Debug\net8.0\Fightingspel.pdb
+C:\Users\rasmus.mattssonboll\Documents\Programmering 1\Fightingspel\Fightingspel\obj\Debug\net8.0\Fightingspel.genruntimeconfig.cache
+C:\Users\rasmus.mattssonboll\Documents\Programmering 1\Fightingspel\Fightingspel\obj\Debug\net8.0\ref\Fightingspel.dll
