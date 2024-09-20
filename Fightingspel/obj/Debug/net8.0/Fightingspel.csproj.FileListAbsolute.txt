@@ -12,3 +12,4 @@ C:\Users\rasmus.mattssonboll\Documents\Programmering 1\Fightingspel\Fightingspel
 C:\Users\rasmus.mattssonboll\Documents\Programmering 1\Fightingspel\Fightingspel\obj\Debug\net8.0\Fightingspel.pdb
 C:\Users\rasmus.mattssonboll\Documents\Programmering 1\Fightingspel\Fightingspel\obj\Debug\net8.0\Fightingspel.genruntimeconfig.cache
 C:\Users\rasmus.mattssonboll\Documents\Programmering 1\Fightingspel\Fightingspel\obj\Debug\net8.0\ref\Fightingspel.dll
+C:\Users\rasmus.mattssonboll\Documents\Programmering 1\Fightingspel\Fightingspel\obj\Debug\net8.0\Fightingspel.sourcelink.json

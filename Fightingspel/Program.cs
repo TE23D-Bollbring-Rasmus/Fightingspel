@@ -1,14 +1,15 @@
 ﻿Console.WriteLine("Vad heter du?");
 string name = Console.ReadLine();
+int Hp = 100;
 
-if (name.ToLower() == "dean")
+int damage = Random.Shared.Next(1,21);
+Hp= Hp-damage;
+
+while (name == "")
 {
-    Console.WriteLine("KYS");
+    Console.WriteLine("ditt namn");
+    name = Console.ReadLine();
 }
 
-else
-{
-    Console.WriteLine("Välkommen Fighter");
-}
 
-Console.ReadLine();
+Console.ReadLine(); 
