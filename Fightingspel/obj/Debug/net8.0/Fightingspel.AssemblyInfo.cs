@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fightingspel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88a84682322d5f0ea1856cc4e69574e773b9c4da")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3bf6f116603345e160e784409f707a94d9e89c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fightingspel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fightingspel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

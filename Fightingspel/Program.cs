@@ -1,15 +1,36 @@
 ﻿Console.WriteLine("Vad heter du?");
-string name = Console.ReadLine();
-int Hp = 100;
+string Hjältename = Console.ReadLine();
+string Fiendename = "Fiende";
+int HjälteHp = 100;
+int FiendeHp = 100;
 
-int damage = Random.Shared.Next(1,21);
-Hp= Hp-damage;
+while (HjälteHp > 0 && FiendeHp > 0)
+{
+    Console.WriteLine("Ny runda");
+    Console.WriteLine($"{Hjältename}: {HjälteHp} {Fiendename}: {FiendeHp}");
+    int fiendedamage = Random.Shared.Next(1,21);
+    HjälteHp = HjälteHp-fiendedamage;
+    int hjältedamage = Random.Shared.Next(1,21);
+    FiendeHp = FiendeHp-hjältedamage;
+}
+if (HjälteHp == 0 && FiendeHp == 0){
+    Console.WriteLine("Lika");
+}
+else if (FiendeHp == 0){
+    Console.WriteLine($"{Hjältename} vann!");
+}
+else{
+    Console.WriteLine($"{Fiendename} vann!");
+}
 
-while (name == "")
+
+while (Hjältename.Length < 2 )
 {
     Console.WriteLine("ditt namn");
-    name = Console.ReadLine();
+    Hjältename = Console.ReadLine();
 }
+
+
 
 
 Console.ReadLine(); 
