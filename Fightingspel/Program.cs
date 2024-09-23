@@ -3,6 +3,13 @@ string Hjältename = Console.ReadLine();
 string Fiendename = "Fiende";
 int HjälteHp = 100;
 int FiendeHp = 100;
+while (Hjältename.Length < 2 )
+{
+    Console.WriteLine("ditt namn");
+    Hjältename = Console.ReadLine();
+}
+
+
 
 while (HjälteHp > 0 && FiendeHp > 0)
 {
@@ -24,11 +31,6 @@ else{
 }
 
 
-while (Hjältename.Length < 2 )
-{
-    Console.WriteLine("ditt namn");
-    Hjältename = Console.ReadLine();
-}
 
 
 
