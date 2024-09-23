@@ -8,17 +8,22 @@ while (Hjältename.Length < 2 )
     Console.WriteLine("ditt namn");
     Hjältename = Console.ReadLine();
 }
-
+ 
 
 
 while (HjälteHp > 0 && FiendeHp > 0)
 {
-    Console.WriteLine("Ny runda");
+    Console.WriteLine("\n Ny runda");
     Console.WriteLine($"{Hjältename}: {HjälteHp} {Fiendename}: {FiendeHp}");
+    int hjältedamage = Random.Shared.Next(1,21);
     int fiendedamage = Random.Shared.Next(1,21);
     HjälteHp = HjälteHp-fiendedamage;
-    int hjältedamage = Random.Shared.Next(1,21);
+    if (HjälteHp < 0)
+     Console.WriteLine($"{Hjältename} gör {hjältedamage} skada på {Fiendename}");
     FiendeHp = FiendeHp-hjältedamage;
+    Console.WriteLine($"{Fiendename} gör {fiendedamage} skada på {Hjältename}");
+    Console.WriteLine("Tryck på en knapp för att fortsätta");
+    Console.ReadKey();
 }
 if (HjälteHp == 0 && FiendeHp == 0){
     Console.WriteLine("Lika");
@@ -26,7 +31,7 @@ if (HjälteHp == 0 && FiendeHp == 0){
 else if (FiendeHp == 0){
     Console.WriteLine($"{Hjältename} vann!");
 }
-else{
+else if (HjälteHp == 0){
     Console.WriteLine($"{Fiendename} vann!");
 }
 
