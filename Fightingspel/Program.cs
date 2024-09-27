@@ -1,8 +1,8 @@
 ﻿Console.WriteLine("Vad heter du?");
 string Hjältename = Console.ReadLine();
 string Fiendename = "Fiende";
-int HjälteHp = 100;
-int FiendeHp = 100;
+int HjälteHp = 5;
+int FiendeHp = 50;
 Console.WriteLine("Du är Musse Pigg och din motståndare är hans addiction till ciggaretter");
 
 string hjälteASCII = @"
