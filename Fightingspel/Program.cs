@@ -3,6 +3,7 @@ string Hjältename = Console.ReadLine();
 string Fiendename = "Fiende";
 int HjälteHp = 100;
 int FiendeHp = 100;
+Console.WriteLine("Du är Musse Pigg och din motståndare är hans addiction till ciggaretter");
 
 string hjälteASCII = @"
             .-""\""-.
@@ -71,10 +72,10 @@ while (HjälteHp > 0 && FiendeHp > 0)
         Console.WriteLine("Lika");
     }
     else if (HjälteHp <= 0){
-        Console.WriteLine($"{Fiendename} vann!");
+        Console.WriteLine($"{Fiendename} vann! Musse dog av hans röknings addiction");
     }
     else if (FiendeHp <= 0){
-        Console.WriteLine($"{Hjältename} vann!");
+        Console.WriteLine($"{Hjältename} vann! Musse slutade röka och levde 1 år till");
     }
     Console.WriteLine("Tryck på en knapp för att fortsätta");
     Console.ReadKey();
